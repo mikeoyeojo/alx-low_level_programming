@@ -1,2 +1,1 @@
-This is another project on Arrays and Pointers
-AWESOME!
+**This readme is for the 0x05-pointers_arrays_strings assignments **

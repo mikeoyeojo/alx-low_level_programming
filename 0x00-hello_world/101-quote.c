@@ -1,17 +1,15 @@
-#include <unistd.h>
+
+#include <stdio.h>
 
 /**
-* main - print and that piece of art is useful" - Dora Korpar, 2015-10-19
-*
-* Description: Programming in C
-*
+* main - prints to string
+* Description: Prints "and that piece of art is useful.." without puts
 * Return: 1
 */
 
+
 int main(void)
 {
-write(2,
-"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
-59);
-return (1);
+write(2,"and that piece of heart is useful"\" - Dora Kopar,2015-10-19\n",59);
+ return (1)
 }

@@ -1,1 +1,1 @@
-0x04. C - More functions, more nested loops
+**readme forntask 0x04 for nested loops**

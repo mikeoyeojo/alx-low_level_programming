@@ -1,25 +1,21 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * more_numbers - prints numbers to 14
- * Return: nothing
- */
-
+* more_numbers - prints numbers 0 to 9, 10times
+* Return: none
+*/
 void more_numbers(void)
 {
-int n1, n2;
+	int i, j;
 
-for (n1 = 0; n1 < 10; n1++)
-{
-for (n2 = 0; n2 <= 14; n2++)
-{
-if (n2 > 9)
-{
-putchar((n2 / 10) + '0');
-}
-putchar((n2 % 10) + '0');
-}
-putchar(10);
-}
+	for (i = 0; i < 10; i++)
+	{
+		for (j = 0; j <= 14; j++)
+		{
+			if (j >= 10)
+				_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
+		}
+		_putchar('\n');
+	}
 }
